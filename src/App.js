@@ -3,7 +3,7 @@ import Note from './Note/Note';
 import NoteForm from './NoteForm/NoteForm';
 import {DB_CONFIG} from './config/config';
 import firebase from 'firebase/app'
-import 'firebase/database';
+import 'firebase/database';     //The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 import './App.css';
 
 class App extends Component {
